@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Loan Calculator</title>
+
+</head>
+
+<body>
+  <div class="loan-calculator">
+
+    <form id="form" class="form" action="">
+      <h1 class="form__title">Loan Calculator</h1>
+
+
+      <div class="form__input-container">
+        <span class="dollar"> $ </span><input class="form__loan-input" type="text" name="loan-amount" id="loan-amount"
+          placeholder="Loan Amount">
+      </div>
+
+      <div class="form__input-container">
+        <span class="percentage"> % </span><input class="form__interest-input" type="text" name="anual-interest"
+          id="anual-interest" placeholder="Annual Interest">
+      </div>
+
+      <div class="form__input-container">
+        <input class="form__years-input" type="text" name="repayment-years" id="repayment-years"
+          placeholder="Repayment Years">
+      </div>
+
+      <input id="submit" class="form__submit" type="submit" value="Calculate">
+
+      <p class='form__loader'>Loading</p>
+      <div class="results">
+
+
+      </div>
+
+    </form>
+
+  </div>
+
+
+  <script src="index.js"></script>
+</body>
+
+</html>

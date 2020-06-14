@@ -1,0 +1,65 @@
+body {
+  background-color: gray;
+  text-align: center;
+}
+
+.loan-calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 6%;
+
+}
+
+.form {
+  background-color: white;
+  width: 30vw;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items:center;
+  padding: 2%;
+}
+
+
+
+.form__input-container {
+  height: fit-content;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+
+
+.form input {
+  display: inline-block;
+}
+
+.percentage, .dollar {
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+}
+
+.form__submit {
+  margin-top: 5%;
+  background-color: #333333;
+  color: white;
+  font-weight: 500;
+  width: 50%;
+}
+
+.form__loader {
+  display: none;
+}
+
+.results p{
+  background-color: rgb(209, 208, 208);
+  color: rgb(87, 85, 85);
+}
